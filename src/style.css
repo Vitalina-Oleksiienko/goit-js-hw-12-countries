@@ -18,6 +18,7 @@ h1 {
   border-width: 7px;
   border-style: outset;
   border-color: teal;
+  font-size: 20px;
 }
 
 .error {
