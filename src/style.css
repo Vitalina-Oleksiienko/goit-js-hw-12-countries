@@ -10,10 +10,11 @@ h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 50px;
   color: teal;
-  border: black;
 }
 
 .input {
+  width: 400px;
+  height: 50px;
   border-width: 7px;
   border-style: outset;
   border-color: teal;
