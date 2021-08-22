@@ -14,3 +14,9 @@ h1 {
   border-style: outset;
   border-color: teal;
 }
+
+.error {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
