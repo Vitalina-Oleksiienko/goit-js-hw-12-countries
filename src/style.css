@@ -1,3 +1,6 @@
+body {
+  background: repeating-radial-gradient(circle farthest-corner at 30px 20px, #fff, aquamarine);
+}
 .block {
   display: flex;
   justify-content: center;
