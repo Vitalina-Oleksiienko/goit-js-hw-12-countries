@@ -51,7 +51,7 @@ function onInput(e) {
                 });
             } else {
                 error({
-                    text: `check your internet, we can't work like this :(`,
+                    text: `Check your internet, we can't work like this :(`,
                 });
             }
         });
