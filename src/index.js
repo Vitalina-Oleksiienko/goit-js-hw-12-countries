@@ -44,5 +44,16 @@ function onInput(e) {
                 text: 'We found many countries, specify your request',
             });
         })
+        .catch(err => {
+            if (err.status === 404) {
+                error({
+                    text: `Error ${err.status}. There is no such country.`,
+                });
+            } else {
+                error({
+                    text: `check your internet, we can't work like this :(`,
+                });
+            }
+        });
         
 }
